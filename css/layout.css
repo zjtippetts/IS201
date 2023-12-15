@@ -1,0 +1,61 @@
+.common {
+    position: absolute;
+}
+
+.nav {
+    top: 0px;
+    right: 5px;
+    width: 350px;
+    height: 35px;
+    padding-right: 15px;
+    padding-top: 15px;
+    z-index: 2;
+    font-size: 25px;
+    float: right;
+    color: black;
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 1050px;
+    background-size: cover;
+    background: no-repeat top center;
+    z-index: 1;
+    border: solid black 1px;
+}
+
+.mainbody {
+    top: 1051px;
+    left: 0px;
+    right: 0px;
+    bottom: 25px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    z-index: 3;
+}
+
+.footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 25px;
+    z-index: 4;
+    position: fixed;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background-color: #cccccc;
+}
+
+.h1 {
+    top: 225px;
+    left: 100px;
+    right: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
